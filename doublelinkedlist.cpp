@@ -157,7 +157,7 @@ public:
             return;
         }
 
-        // Step 1: MOve to last node
+        // Step 1: Move to last node
         Node *currentNode = START;
         int i = 0;
         while (currentNode->next != NULL)
@@ -177,5 +177,13 @@ public:
             i++;
         }
     }
-    
+
+    void searchData()
+    {
+        if (START == NULL)
+        {
+            cout << "\nList is empty" << endl;
+            return;
+        }
+    }
 } 
